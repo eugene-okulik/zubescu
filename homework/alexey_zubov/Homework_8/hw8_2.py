@@ -20,7 +20,7 @@ def print_generator(num):
         if count == num:
             """
             без этого появляется ошибка для больших чисел
-            ValueError: Exceeds the limit (4300 digits) for integer string conversion; use sys.set_int_max_str_digits() to increase the limit
+            ValueError: Exceeds the limit (4300 digits)
             """
             if num > 10000:
                 sys.set_int_max_str_digits(100000)
