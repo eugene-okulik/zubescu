@@ -14,7 +14,7 @@ def fibonacci_generator():
         first, second = second, current
 
 
-def print_generator(num):
+def print_value(num):
     count = 1
     for number in fibonacci_generator():
         if count == num:
@@ -29,7 +29,7 @@ def print_generator(num):
         count += 1
 
 
-print_generator(5)
-print_generator(200)
-print_generator(1000)
-print_generator(100000)
+print_value(5)
+print_value(200)
+print_value(1000)
+print_value(100000)
